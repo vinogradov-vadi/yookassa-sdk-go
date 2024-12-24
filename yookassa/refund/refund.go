@@ -2,8 +2,9 @@
 package yoorefund
 
 import (
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/common"
 	"time"
+
+	yoocommon "github.com/vinogradov-vadi/yookassa-sdk-go/yookassa/common"
 )
 
 // The Refund object contains all currently relevant information about the refund of a successful payment.
