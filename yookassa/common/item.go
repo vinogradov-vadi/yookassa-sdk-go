@@ -1,6 +1,9 @@
 package yoocommon
 
 type Item struct {
+	// parameter with the mode of the payment
+	PaymentMode string `json:"payment_mode"`
+	
 	// parameter with the type of the payment
 	PaymentSubject string `json:"payment_subject"`
 	
