@@ -1,6 +1,9 @@
 package yoocommon
 
 type Item struct {
+	// parameter with the type of the payment
+	PaymentSubject string `json:"payment_subject"`
+	
 	// parameter with the name of the product or service
 	Description string `json:"description"`
 
